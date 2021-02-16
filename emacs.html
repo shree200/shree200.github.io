@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shree Suman</title><!--
+    <meta http-equiv="Refresh" content="0;URL=https://sites.google.com/view/h00/old/emacs" />
+    <link rel="icon" href="https://lh5.googleusercontent.com/-GB_x0rqjPk8/T-RFWJc0bjI/AAAAAAAAABw/HIsEaH36LAw/s200/sanjeev-007.png" type="image/png">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="pragma" content="no-cache">
+    <style href>a {text-decoration: none} </style>
+  </head>
+  <body bgcolor=gray background="https://lh6.googleusercontent.com/-vuT6Zb3JRDk/UQLCvU2uoXI/AAAAAAAAASQ/wKbXgowi7b8/s800/IMAG0508.jpg">
+    <center>
+      <table width=850 bgcolor=white>
+        <tr>
+          <th>
+	    <!--<font color="maroon" size="6px"></font>-->
+	  
+          </th>
+	</tr>
+      </table>
+      <table width=850px bgcolor=blue align=center><tr><td width=50%>
+	    <font color=white>Return to <a href="index.html" style="color: white;">Sanjeev Kumar's Home page</a></font>
+	    </td><td width=50% align=right>
+	    <a href="hemacs.html" style="color: white;">&#2361;&#2367;&#2344;&#2381;&#2342;&#2368; &#2360;&#2306;&#2360;&#2381;&#2325;&#2352;&#2339;</a>
+      </td></tr></table>
+      <hr width=850 color=blue size=2 />
+      <table width=850 bgcolor=white cellpadding=0 align=center>
+	<tr valign=top>
+	  <td>
+	    <center><font size=5><a title="" style="color:rgb(0, 0, 255); background-color:rgb(234, 209, 220); "><b><u>Start emacs:</u></b></a></font></center>
+	  For installing emacs in ubuntu run the command<br/>
+	  <tt>sudo apt-get install emacs</tt><br/><br/>
+	  To open a file in emacs<br/>
+	  <tt>emacs &lt;file name&gt;.&lt;ext&gt;</tt><br/><br/>
+	  To define emacs shortcuts in ubunut please edit the file
+	  <tt>/etc/emacs23/site-start.d/00debian-vars.elc</tt><br/>
+	  Otherwise we can edit <tt>$HOME/.emacs</tt> file too.
+	  <hr width=800 color=blue size=2 />
+	  <center><font size="5"><b style="background-color: rgb(234, 209, 220);"><u><font style="color: rgb(0, 0, 255);">Some Emacs editor commands</font></u></b></font></center><p/><p/>
+	<font color=#0000ff>
+	  <tt>C </tt>= Control<br />
+	  <tt>M </tt>= Meta = Alt|Esc<br />
+	  <b>Basics</b><br />
+	  <tt>C-x C-f &nbsp; </tt>&ldquo;find&rdquo; file i.e. open/create a file in buffer<br />
+	  <tt>C-x C-s &nbsp; </tt>save the file<br />
+	  <tt>C-x C-w &nbsp; </tt>write the text to an alternate name<br />
+	  <tt>C-x C-v &nbsp; </tt>find alternate file<br />
+	  <tt>C-x i &nbsp;&nbsp;&nbsp; </tt>insert file at cursor position<br />
+	  <tt>C-x b &nbsp;&nbsp;&nbsp; </tt>create/switch buffers<br />
+	  <tt>C-x C-b &nbsp; </tt>show buffer list<br />
+	  <tt>C-x k &nbsp;&nbsp;&nbsp; </tt>kill buffer<br />
+	  <tt>C-z &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </tt>suspend emacs<br />
+	  <tt>C-X C-c &nbsp; </tt>close down emacs<br />
+	  <br />
+	  <b>Basic movement</b><br />
+	  <tt>C-f&nbsp;&nbsp;&nbsp;&nbsp;</tt>forward char<br />
+	  <tt>C-b&nbsp;&nbsp;&nbsp;&nbsp;</tt>backward char<br />
+	  <tt>C-p&nbsp;&nbsp;&nbsp;&nbsp;</tt>previous line<br />
+	  <tt>C-n&nbsp;&nbsp;&nbsp;&nbsp;</tt>next line<br />
+	  <tt>M-f&nbsp;&nbsp;&nbsp;&nbsp;</tt>forward one word<br />
+	  <tt>M-b&nbsp;&nbsp;&nbsp;&nbsp;</tt>backward one word<br />
+	  <tt>C-a&nbsp;&nbsp;&nbsp;&nbsp;</tt>beginning of line<br />
+	  <tt>C-e&nbsp;&nbsp;&nbsp;&nbsp;</tt>end of line<br />
+	  <tt>C-v&nbsp;&nbsp;&nbsp;&nbsp;</tt>one page up<br />
+	  <tt>M-v&nbsp;&nbsp;&nbsp;&nbsp;</tt>scroll down one page<br />
+	  <tt>M-&lt;&nbsp;&nbsp;&nbsp;&nbsp;</tt>beginning of text<br />
+	  <tt>M-&gt;&nbsp;&nbsp;&nbsp;&nbsp;</tt>end of text<br />
+	  <tt>M-g g&nbsp;&nbsp;</tt>go to line<br/>
+	  <br />
+	  <b>Editing</b><br />
+	  <tt>M-n&nbsp;&nbsp;&nbsp;&nbsp;</tt>repeat the following command n times<br />
+	  <tt>C-u&nbsp;&nbsp;&nbsp;&nbsp;</tt>repeat the following command 4 times<br />
+	  <tt>C-u n&nbsp;&nbsp;</tt>repeat n times<br />
+	  <tt>C-d&nbsp;&nbsp;&nbsp;&nbsp;</tt>delete a char<br />
+	  <tt>M-d&nbsp;&nbsp;&nbsp;&nbsp;</tt>delete word<br />
+	  <tt>M-Del&nbsp;&nbsp;</tt>delete word backwards<br />
+	  <tt>C-k&nbsp;&nbsp;&nbsp;&nbsp;</tt>kill line<br />
+	  <br />
+	  <tt>C-Space&nbsp;</tt>Set beginning mark (for region marking for example)<br />
+	  <tt>C-W&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>&ldquo;kill&rdquo; (delete) the marked region region<br />
+	  <tt>M-W&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>copy the marked region<br />
+	  <tt>C-y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>&ldquo;yank&rdquo; (paste) the copied/killed region/line<br />
+	  <tt>M-y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>yank earlier text (cycle through kill buffer)<br />
+	  <tt>C-x C-x&nbsp;</tt>exchange cursor and mark<br />
+	  <tt>C-t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>transpose two chars<br />
+	  <tt>M-t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>transpose two words<br />
+	  <tt>C-x C-t&nbsp;</tt>transpose lines<br />
+	  <tt>M-u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>make letters uppercase in word from cursor position to end<br />
+	  <tt>M-c&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>simply make first letter in word uppercase<br />
+	  <tt>M-l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>opposite to M-u<br />
+	  <br />
+	  <b>Important</b><br />
+	  <tt>C-g&nbsp;&nbsp;&nbsp;&nbsp;</tt>quit the running/entered command<br />
+	  <tt>C-x u&nbsp;&nbsp;</tt>undo previous action<br />
+	  <tt>M-x&nbsp;&nbsp;&nbsp;&nbsp;</tt>revert-buffer RETURN (insert like this) undo all changes since last save<br />
+	  <tt>M-x&nbsp;&nbsp;&nbsp;&nbsp;</tt>recover-file RETURN Recover text from an autosave-file<br />
+	  <tt>M-x&nbsp;&nbsp;&nbsp;&nbsp;</tt>recover-session RETURN if you edited several files<br />
+	  <br />
+	  <b>Online-Help</b><br />
+	  <tt>C-h c&nbsp;&nbsp;&nbsp;&nbsp;</tt>which command does this keystroke invoke<br />
+	  <tt>C-h k&nbsp;&nbsp;&nbsp;&nbsp;</tt>which command does this keystroke invoke and what does it do?<br />
+	  <tt>C-h l&nbsp;&nbsp;&nbsp;&nbsp;</tt>what were my last 100 typed keys<br />
+	  <tt>C-h w&nbsp;&nbsp;&nbsp;&nbsp;</tt>what key-combo does this command have?<br />
+	  <tt>C-h f&nbsp;&nbsp;&nbsp;&nbsp;</tt>what does this function do<br />
+	  <tt>C-h v&nbsp;&nbsp;&nbsp;&nbsp;</tt>what's this variable and what is it's value<br />
+	  <tt>C-h b&nbsp;&nbsp;&nbsp;&nbsp;</tt>show all keycommands for this buffer<br />
+	  <tt>C-h t&nbsp;&nbsp;&nbsp;&nbsp;</tt>start the emacs tutorial<br />
+	  <tt>C-h i&nbsp;&nbsp;&nbsp;&nbsp;</tt>start the info reader<br />
+	  <tt>C-h C-k&nbsp;&nbsp;</tt>start up info reader and go to a certain key-combo point<br />
+	  <tt>C-h F&nbsp;&nbsp;&nbsp;&nbsp;</tt>show the emacs FAQ<br />
+	  <tt>C-h p&nbsp;&nbsp;&nbsp;&nbsp;</tt>show infos about the Elisp package on this machine<br />
+	  <br />
+	  <b>Search/Replace</b><br />
+	  <tt>C-s&nbsp;&nbsp;</tt>Search forward<br />
+	  <tt>C-r&nbsp;&nbsp;</tt>search backward<br />
+	  <tt>C-g&nbsp;&nbsp;</tt>return to where search started (if you are still in search mode)<br />
+	  <tt>M-%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt> query replace<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;Space&nbsp;</tt>or<tt>&nbsp;y&nbsp;&nbsp;&nbsp;</tt>replace this occurence<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;Del&nbsp;</tt>or<tt>&nbsp;n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>don't replace<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt> only replace this and exit (replace)<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt> replace and pause (resume with Space or y)<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt> replace all following occurences<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt> back to previous match<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;RETURN&nbsp;</tt>or<tt>&nbsp;q&nbsp;&nbsp;</tt>quit replace<br />
+	  Search/Replace with regular expressions<br />
+	  Characters to use in regular expressions:<br />
+	  ^ beginning of line<br />
+	  $ end of line<br />
+	  . single char<br />
+	  .* group or null of chars<br />
+	  \&lt; beginning of a word<br />
+	  \&gt; end of a word<br />
+	  <br/>
+	  <b>Bracket matching</b><br/>
+	  <tt>C-M-u&nbsp;&nbsp;</tt> Backward bracket matching<br/>
+	  <tt>C-M-n&nbsp;&nbsp;</tt> Forward bracket matching<br/>
+	  <br/>
+	  <tt>[] every char inside the backets (for example [a-z] means every small letter)</tt><br />
+	  <br />
+	  <tt>M C-s RETURN&nbsp;&nbsp;&nbsp;</tt>search for regular expression forward<br />
+	  <tt>M C-r RETURN&nbsp;&nbsp;&nbsp;</tt>search for regular expression backward<br />
+	  <tt>M C-s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>incremental search<br />
+	  <tt>C-s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>repeat incremental search<br />
+	  <tt>M C-r&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>incremental search backwards<br />
+	  <tt>C-r&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>repeat backwards<br />
+	  <tt>M-x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>query-replace-regexp search and replace<br />
+	  <br />
+	  <b>Window-Commands</b><br />
+	  <tt>C-x 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>split window vertically<br />
+	  <tt>C-x 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>split window horizontal<br />
+	  <tt>C-x o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>change to other window<br />
+	  <tt>C-x 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>delete window<br />
+	  <tt>C-x 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>close all windows except the one the cursors in<br />
+	  <tt>C-x ^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>enlarge window<br />
+	  <tt>M-x shrink-window&nbsp;</tt>command says it (execute-extended-command)<br />
+	  <tt>M C-v&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>scroll other window<br />
+	  <tt>C-x 4 f&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>find file in other window<br />
+	  <tt>C-x 4 o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>change to other window<br />
+	  <tt>C-x 4 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>kill buffer and window<br />
+	  <tt>C-x 5 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>make new frame<br />
+	  <tt>C-x 5 f&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>find file in other frame<br />
+	  <tt>C-x 5 o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>change to other frame<br />
+	  <tt>C-x 5 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>close this frame<br />
+	  <br />
+	  <b>Bookmark commands</b><br />
+	  <tt>C-x r m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>set a bookmark at current cursor pos<br />
+	  <tt>C-x r b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>jump to bookmark<br />
+	  <tt>M-x bookmark-rename&nbsp;&nbsp;&nbsp;</tt>rename the existing bookmark<br />
+	  <tt>M-x bookmark-delete&nbsp;&nbsp;&nbsp;</tt>delete the existing bookmark<br />
+	  <tt>M-x bookmark-save&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>save existing bookmark<br />
+	  <tt>C-x r l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>list bookmarks<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>mark bookmark for deletion<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>rename bookmark<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>save all listed bookmarks<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>show bookmark the cursor is over<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>mark bookmarks to be shown in multiple window<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>show marked bookmarks (or the one the cursor is over)<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>toggle listing of the corresponding paths<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>&quot; path to this file<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>x delete marked bookmarks<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Del&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>?<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>quit bookmark list<br />
+	  <tt>M-x bookmark-write&nbsp;&nbsp;&nbsp;</tt>write all bookmarks in given file<br />
+	  <tt>M-x bookmark-load&nbsp;&nbsp;&nbsp;&nbsp;</tt>load bookmark from given file<br />
+	  <br />
+	  <b>Shell</b><br />
+	  <tt>M-x shell&nbsp;&nbsp;&nbsp;</tt>starts shell modus<br />
+	  <tt>C-c C-c&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>same as C-c under unix (stop running job)<br />
+	  <tt>C-d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>delete char forward<br />
+	  <tt>C-c C-d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>Send EOF<br />
+	  <tt>C-c C-z&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>suspend job (C-z under unix)<br />
+	  <tt>M-p&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>show previous commands<br />
+	  <br />
+	  <b>DIRectory EDitor (dired)</b><br />
+	  <tt>C-x d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>start up dired<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;</tt>(large C) copy<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>mark for erase<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</tt>delete right away<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e </tt>or<tt> f </tt>open file or directory<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>reread directory structure from file<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>change group permissions (chgrp)<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>delete line from listing on screen (don't actually delete)<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>mark with *<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>move to next line<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>open file in other window and go there<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C-o&nbsp;&nbsp;&nbsp;&nbsp;</tt>open file in other window but don't change there<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>print file<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>quit dired<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>do query-replace in marked files<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>rename file<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>remove mark<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>view file content<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>delete files marked with D<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>compress file<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M-Del&nbsp;&nbsp;</tt>remove all marks (whatever kind)<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>mark backup files (name~ files) for deletion<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>mark auto-save files (#name#) for deletion<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>mark directory with * (C-u * removes that mark again)<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>compare this file with marked file<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M-=&nbsp;&nbsp;&nbsp;&nbsp;</tt>compare this file with it's backup file<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>apply shell command to this file<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M-}&nbsp;&nbsp;&nbsp;&nbsp;</tt>change to the next file marked with * od D<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M-{&nbsp;&nbsp;&nbsp;&nbsp;</tt>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;previous &quot;<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;% d&nbsp;&nbsp;&nbsp;&nbsp;</tt>mark files described through regular expression for deletion<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;% m&nbsp;&nbsp;&nbsp;&nbsp;</tt>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(with *)<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>create directory<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>changed to next dir<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>change to previous dir<br />
+	  <tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>toggle between sorting by name or date<br />
+	  <br />
+	  Maybe into this category also fits this command:<br />
+	  <tt>M-x speedbar&nbsp;&nbsp;</tt>starts up a separate window with a directory view<br />
+	  <br />
+	  <b>Telnet</b><br />
+	  M-x telnet starts up telnet-modus<br />
+	  C-d either delete char or send EOF<br />
+	  C-c C-c stop running job (similar to C-c under unix)<br />
+	  C-c C-d send EOF<br />
+	  C-c C-o clear output of last command<br />
+	  C-c C-z suspend execution of command<br />
+	  C-c C-u kill line backwards<br />
+	  M-p recall previous command<br />
+	  <br />
+	  <b>Text</b><br />
+	  Works only in text mode<br />
+	  M-s center line<br />
+	  M-S center paragraph<br />
+	  M-x center-region name says<br />
+	  <br />
+	  <b>Macro-commands</b><br />
+	  C-x ( start macro definition<br />
+	  C-x ) end of macro definition<br />
+	  C-x e execute last definied macro<br />
+	  M-n C-x e execute last defined macro n times<br />
+	  M-x name-last-kbd-macro give name to macro (for saving)<br />
+	  M-x insert-keyboard-macro save named macro into file<br />
+	  M-x load-file load macro<br />
+	  M-x macroname execute macroname<br />
+	  <br />
+	  <b>Programming</b><br />
+	  M C-\ indent region between cursor and mark<br />
+	  M-m move to first (non-space) char in this line<br />
+	  M-^ attach this line to previous<br />
+	  M-; formatize and indent comment<br />
+	  C, C++ and Java Modes<br />
+	  M-a beginning of statement<br />
+	  M-e end of statement<br />
+	  M C-a beginning of function<br />
+	  M C-e end of function<br />
+	  C-c RETURN Set cursor to beginning of function and mark at the end<br />
+	  C-c C-q indent the whole function according to indention style<br />
+	  C-c C-a toggle modus in which after electric signs (like {}:';./*) emacs does the indention<br />
+	  C-c C-d toggle auto hungry mode in which emacs deletes groups of spaces with one del-press<br />
+	  C-c C-u go to beginning of this preprocessor statement<br />
+	  C-c C-c comment out marked area<br />
+	  <b>More general (I guess)</b><br />
+	  M-x outline-minor-mode collapses function definitions in a file to a mere {...}<br />
+	  M-x show-subtree If you are in one of the collapsed functions, this un-collapses it<br />
+	  In order to achive some of the feats coming up now you have to run etags *.c *.h *.cpp (or what ever ending you source files have) in the source directory<br />
+	  M-. (Thats Meta dot) If you are in a function call, this will take you to it's definition<br />
+	  M-x tags-search ENTER Searches through all you etaged<br />
+	  M-, (Meta comma) jumps to the next occurence for tags-search<br />
+	  M-x tags-query-replace yum. This lets you replace some text in all the tagged files<br />
+	  <br />
+	  <b>GDB (Debugger)</b><br />
+	  M-x gdb starts up gdm in an extra window<br />
+	  <br />
+	  <b>Version Control</b><br />
+	  <tt>C-x v d&nbsp;&nbsp;&nbsp;</tt>show all registered files in this dir<br />
+	  <tt>C-x v =&nbsp;&nbsp;&nbsp;</tt>show diff between versions<br />
+	  <tt>C-x v u&nbsp;&nbsp;&nbsp;</tt>remove all changes since last checkin<br />
+	  <tt>C-x v ~&nbsp;&nbsp;&nbsp;</tt>show certain version in different window<br />
+	  <tt>C-x v l&nbsp;&nbsp;&nbsp;</tt>print log<br />
+	  <tt>C-x v i&nbsp;&nbsp;&nbsp;</tt>mark file for version control add<br />
+	  <tt>C-x v h&nbsp;&nbsp;&nbsp;</tt>insert version control header into file<br />
+	  <tt>C-x v r&nbsp;&nbsp;&nbsp;</tt>check out named snapshot<br />
+	  <tt>C-x v s&nbsp;&nbsp;&nbsp;</tt>create named snapshot<br />
+	  <tt>C-x v a&nbsp;&nbsp;&nbsp;</tt>create changelog file in gnu-style<br />
+	  <br />
+          <b>Checking and Correcting Spelling</b><br />
+	  <tt>M-$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>
+	  Check and correct spelling of the active region or the word at point (ispell-word).<br />
+	  <tt>M-x ispell&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>Check and correct spelling in the active region or the entire buffer<br />
+	  <tt>M-x ispell-buffer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>Check and correct spelling in the buffer<br />
+	  <tt>M-x ispell-region&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>Check and correct spelling in the region<br />
+	  <tt>M-x ispell-message&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>Check and correct spelling in a draft mail message, excluding cited material<br />
+	  <tt>M-x ispell-change-dictionary &lt;RET&gt; dict &lt;RET&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>Restart the Aspell/Ispell/Hunspell process, using dict as the dictionary<br />
+	  <tt>M-x ispell-kill-ispell&nbsp;&nbsp;&nbsp;</tt>Kill the Aspell/Ispell/Hunspell subprocess<br />
+	  <tt>M-&lt;TAB&gt; or  &lt;ESC&gt;&lt;TAB&gt;&nbsp;&nbsp;&nbsp;&nbsp;</tt>Complete the word before point based on the spelling dictionary (ispell-complete-word)<br />
+	  <tt>M-x flyspell-mode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt>Enable Flyspell mode, which highlights all misspelled words<br />
+	  <tt>M-x flyspell-prog-mode&nbsp;&nbsp;&nbsp;</tt>Enable Flyspell mode for comments and strings only<br />
+	  <center>
+	    <hr size=5 color=blue />
+	  </center>
+	  <!--a href="hemacs.html">&#2361;&#2367;&#2344;&#2381;&#2342;&#2368; &#2360;&#2306;&#2360;&#2381;&#2325;&#2352;&#2339;</a><br/-->
+  </td></tr>
+      </table><br/>
+</div>
